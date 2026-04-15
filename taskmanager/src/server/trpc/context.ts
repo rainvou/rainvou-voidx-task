@@ -1,5 +1,5 @@
 import { prisma } from "@/lib/prisma";
-import type { PrismaClient } from "@/generated/prisma";
+import type { PrismaClient } from "@/generated/prisma/client";
 
 export interface Session {
   user: {
