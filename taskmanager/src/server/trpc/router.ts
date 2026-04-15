@@ -4,6 +4,7 @@ import { projectRouter } from "./project";
 import { taskRouter } from "./task";
 import { aiRouter } from "./ai";
 import { commentRouter } from "./comment";
+import { apikeyRouter } from "./apikey";
 
 export const appRouter = router({
   project: projectRouter,
@@ -11,6 +12,7 @@ export const appRouter = router({
   task: taskRouter,
   ai: aiRouter,
   comment: commentRouter,
+  apikey: apikeyRouter,
 });
 
 export type AppRouter = typeof appRouter;
