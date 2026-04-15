@@ -1,0 +1,6 @@
+ignoredBuiltDependencies:
+  - sharp
+  - unrs-resolver
+pnpm.approvedBuilds:
+  prisma: 7.7.0
+  "@prisma/engines": 7.7.0
