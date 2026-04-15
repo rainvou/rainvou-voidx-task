@@ -1,0 +1,11 @@
+{
+  "dashboardUrl": "http://localhost:3000",
+  "projectId": "ff5cf2ed-8d31-4f78-b0a6-50e10b7107a9",
+  "projectKey": "rainvou-voidx-task",
+  "projectAlias": "T-테스트매니져",
+  "repoName": "rainvou-voidx-task",
+  "analysisTools": {
+    "bmad": true,
+    "superpowers": true
+  }
+}
