@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git clone *)",
+      "Bash(mkdir -p .claude/plugins/superpowers)",
+      "Bash(cp -r .superpowers-tmp/skills/* .claude/plugins/superpowers/)",
+      "Bash(rm -rf .superpowers-tmp)"
+    ]
+  }
+}

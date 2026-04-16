@@ -6,11 +6,13 @@ export interface KanbanTask {
   title: string;
   priority: Priority;
   statusId: string;
+  type?: string;
   assignee?: {
     id: string;
     name: string | null;
     email: string;
   } | null;
+  labels?: { name: string; color: string }[];
 }
 
 export interface WorkflowColumn {

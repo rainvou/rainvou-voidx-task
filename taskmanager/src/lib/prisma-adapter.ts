@@ -1,5 +1,5 @@
 import type { Adapter, AdapterAccount, AdapterUser, AdapterSession } from "next-auth/adapters";
-import type { PrismaClient } from "@/generated/prisma";
+import type { PrismaClient } from "@/generated/prisma/client";
 
 export function PrismaAdapter(prisma: PrismaClient): Adapter {
   return {
